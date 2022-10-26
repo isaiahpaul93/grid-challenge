@@ -20,7 +20,6 @@ main{
     display: grid;
     grid-template-columns: 290px;
     grid-gap: 1rem;
-
     margin: 0 auto ;
     justify-content: center;
 }
@@ -43,7 +42,7 @@ main{
 }
 
 img {
-    /* border-radius: 26px; */
+    border-radius: 26px;
     width:30px;
     height: 30px;
     border: 2px solid hsl(263, 57%, 62%);
@@ -85,13 +84,11 @@ color:hsl(217, 50%, 35%);
 .daniel{
     background-color: hsl(263, 55%, 52%);
     background-image: url(/grid_challenge/images/bg-pattern-quotation.svg);
-        background-repeat: no-repeat;
-    
-        background-position-x: 11rem;
-
-        margin-top: 2rem;
-        border-radius: 5px;
-        box-shadow: 1px 1px 3px 2px hsl(263, 65%, 65%);
+    background-repeat: no-repeat;
+    /* background-position-x: 11rem; */
+    margin-top: 2rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 2px hsl(263, 65%, 65%);
     
     
 }
@@ -109,7 +106,7 @@ box-shadow: 1px 1px 3px 2px hsl(216, 17%, 45%);
 .jeanette{
     background-color: hsl(0, 0%, 100%);
     border-radius: 5px;
-    box-shadow: 1px 1px 3px 2px hsl(0, 0%, 70%);
+    box-shadow: 1px 1px 3px 2px hsl(0, 0%, 55%);
     /* color: hsl(217, 19%, 35%); */
 }
 
@@ -143,22 +140,17 @@ box-shadow: 1px 1px 3px 2px hsl(214, 17%, 25%);
 
 
     main{
-        
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr ;
         justify-content: center;
-        
-
     }
 
     .daniel{
-        
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
-        grid-row-end:1; 
-
+        grid-row-end:1;
     }
 
     .jonathan{
@@ -184,6 +176,7 @@ box-shadow: 1px 1px 3px 2px hsl(214, 17%, 25%);
         grid-column-end: 4;
 
     }
+
 
 }
 
