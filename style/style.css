@@ -83,14 +83,12 @@ color:hsl(217, 50%, 35%);
 
 .daniel{
     background-color: hsl(263, 55%, 52%);
-    background-image: url(/grid_challenge/images/bg-pattern-quotation.svg);
+    background-image: url(/images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    /* background-position-x: 11rem; */
+    background-position-x: 11rem;
     margin-top: 2rem;
     border-radius: 5px;
     box-shadow: 1px 1px 3px 2px hsl(263, 65%, 65%);
-    
-    
 }
 
 
@@ -136,13 +134,14 @@ box-shadow: 1px 1px 3px 2px hsl(214, 17%, 25%);
     .daniel {
             margin: 0;
             background-position-x: 30rem;
+            background-image: url(/images/bg-pattern-quotation.svg);
         }
 
 
     main{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
         justify-content: center;
     }
 
@@ -163,6 +162,7 @@ box-shadow: 1px 1px 3px 2px hsl(214, 17%, 25%);
         grid-column-end:5;
         grid-row-start:1;
         grid-row-end:3;
+        width: 250px;
     }
 
     .jeanette{
